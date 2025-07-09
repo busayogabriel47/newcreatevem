@@ -75,5 +75,5 @@ jobs:
           app-name: 'vmcreatetest'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E89E86104924CEDBBC83ED8B62BB8B9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CAF92BFB7242401AB7D9B2C2BEEA77D2 }}
           sku: 'flexconsumption'
