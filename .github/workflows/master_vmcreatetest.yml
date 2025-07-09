@@ -41,7 +41,7 @@ jobs:
       - name: Copy dependencies to site-packages
         run: |
           mkdir -p site-packages
-          cp -r venv/lib/python3.11/site-packages/* site-packages/
+          cp -r venv/lib/python3.12/site-packages/* site-packages/
  
       - name: Zip artifact for deployment
         run: |
